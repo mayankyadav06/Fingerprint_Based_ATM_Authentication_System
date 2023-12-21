@@ -26,25 +26,31 @@ pip install twilio
 ## MySQL Database
 Create a database with following fields:
 
--- firstname
+-- Sr_no
+-- first_name
 
--- lastname
+-- last_name
 
 -- phone_no
 
--- accountnum
+-- Account_no
 
--- finger_impression
+-- finger_print
 
--- balance
+-- Balance
 
--- transaction (credited / debited)
+-- Transaction (credited / debited)
 
--- transaction_amount
+-- Amount
 
--- trasnaction_date_time
+-- Date_Time
 
--- account_status (block/unblock)
+-- block_status (block/unblock)
+
+-- block_time
+
+connection_cursor.execute("CREATE TABLE ATM_database (Sr_no int auto_increment ,first_name varchar(20) NOT NULL,last_name varchar(20) NOT NULL,phone_no bigint NOT NULL,Account_no bigint NOT NULL, finger_print LONGBLOB NOT NULL,Balance int NOT NULL,Transaction text NOT NULL,Amount int NOT NULL, Date_Time DATETIME NOT NULL,block_status varchar(10) NOT NULL,block_time DATETIME, primary key(Sr_no) , constraint con_1 unique(Account_no))")
+
 
 
 ## User Installation
