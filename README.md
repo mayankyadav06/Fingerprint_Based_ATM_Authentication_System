@@ -25,15 +25,25 @@ pip install twilio
 
 ## MySQL Database
 Create a database with following fields:
+
 -- firstname
+
 -- lastname
+
 -- phone_no
+
 -- accountnum
+
 -- finger_impression
+
 -- balance
+
 -- transaction (credited / debited)
+
 -- transaction_amount
+
 -- trasnaction_date_time
+
 -- account_status (block/unblock)
 
 
@@ -55,7 +65,8 @@ After Running the file in #7, you will see this interface:
 ![image](https://github.com/mayankyadav06/Fingerprint_Based_ATM_Authentication_System/assets/140626220/2a82e6fc-7a15-452c-9730-28ad13ce60cb)
 
 Registraition of Account:
-![image](https://github.com/mayankyadav06/Fingerprint_Based_ATM_Authentication_System/assets/140626220/3d021ffe-4559-4393-bd3c-380bafadd993)
+![image](https://github.com/mayankyadav06/Fingerprint_Based_ATM_Authentication_System/assets/140626220/e5e2d820-a702-492e-828b-68ec61086bd4)
+
 
 Authentication and Withdrawal:
 ![image](https://github.com/mayankyadav06/Fingerprint_Based_ATM_Authentication_System/assets/140626220/cad4a353-896d-4548-9be4-ee030611e5ba)
