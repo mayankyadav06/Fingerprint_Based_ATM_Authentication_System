@@ -23,9 +23,22 @@ pip install inputimeout
 
 pip install twilio
 
+## MySQL Database
+Create a database with following fields:
+-- firstname
+-- lastname
+-- phone_no
+-- accountnum
+-- finger_impression
+-- balance
+-- transaction (credited / debited)
+-- transaction_amount
+-- trasnaction_date_time
+-- account_status (block/unblock)
+
+
 ## User Installation
 To run the project:
-
  1. Clone this Repo to your local machine.
  2. Make sure that all files are stored in single folder.
  3. Use any IDE which supports Python version >3.
@@ -35,8 +48,18 @@ To run the project:
  7. Before running the file make sure that you have provide all the required details correctly in the code.
  8. Run the ATM.py file.
 
+NOTE: You must create twilio account and have required credential to use the authentication features in this project.
+
 ## Screenshots
 After Running the file in #7, you will see this interface:
+![image](https://github.com/mayankyadav06/Fingerprint_Based_ATM_Authentication_System/assets/140626220/2a82e6fc-7a15-452c-9730-28ad13ce60cb)
+
+Registraition of Account:
+![image](https://github.com/mayankyadav06/Fingerprint_Based_ATM_Authentication_System/assets/140626220/3d021ffe-4559-4393-bd3c-380bafadd993)
+
+Authentication and Withdrawal:
+![image](https://github.com/mayankyadav06/Fingerprint_Based_ATM_Authentication_System/assets/140626220/cad4a353-896d-4548-9be4-ee030611e5ba)
+![image](https://github.com/mayankyadav06/Fingerprint_Based_ATM_Authentication_System/assets/140626220/de72b3c5-3eff-4090-89e6-388dfc626f65)
 
 
 
