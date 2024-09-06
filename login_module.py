@@ -6,7 +6,7 @@ from tkinter.filedialog import askopenfilename
 import binary_processing_module as bmp
 import ATM_authentication as auth
 
-conn  = mysql.connector.connect(host='localhost', password='LightMoon$2509',user= 'root',database='project',autocommit=True)
+conn  = mysql.connector.connect(host='localhost', password=PUT_PASSWORD,user= 'root',database=DATABASE_NAME,autocommit=True)
 connection_cursor = conn.cursor()
 
 
