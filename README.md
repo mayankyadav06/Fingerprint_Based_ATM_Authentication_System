@@ -69,13 +69,16 @@ NOTE: You must create twilio account and have required credential to use the aut
 
 ## Screenshots
 After Running the file in #7, you will see this interface:
+
 ![image](https://github.com/mayankyadav06/Fingerprint_Based_ATM_Authentication_System/assets/140626220/2a82e6fc-7a15-452c-9730-28ad13ce60cb)
 
 Registraition of Account:
+
 ![image](https://github.com/mayankyadav06/Fingerprint_Based_ATM_Authentication_System/assets/140626220/e5e2d820-a702-492e-828b-68ec61086bd4)
 
 
 Authentication and Withdrawal:
+
 ![image](https://github.com/mayankyadav06/Fingerprint_Based_ATM_Authentication_System/assets/140626220/cad4a353-896d-4548-9be4-ee030611e5ba)
 
 ![image](https://github.com/mayankyadav06/Fingerprint_Based_ATM_Authentication_System/assets/140626220/de72b3c5-3eff-4090-89e6-388dfc626f65)
